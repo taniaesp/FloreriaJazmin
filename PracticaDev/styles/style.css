@@ -14,17 +14,18 @@ h1 {
       display: flex;
       justify-content: space-between;
       align-content: center;
-      margin-left: 600px;
+      margin-left: 50px;
       margin-right: 50px;
+    }
+
+    .div-header{
+      background-image: url();
     }
 
     h1 {
       font-size: 40px;
     }
 
-    .header-img{
-      border-radius: 50%;
-      width: 10%;
-    }
+    
   }
   
