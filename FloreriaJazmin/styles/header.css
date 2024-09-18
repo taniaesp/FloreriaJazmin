@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    width: 100%;
+  }
+  
+ 
+  
+    @media screen and (max-width: 1900px) {
+        header {
+            background-image: linear-gradient(rgba(75, 87, 95, 0.849), transparent, #f0cdf0e1), url(/FloreriaJazmin/images/background-floral.webp);
+            background-size: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-content: space-between;
+            justify-content: center;
+            width: 100%;
+            
+        
+        }
+        
+        h1 {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 44px;
+        }
+
+        div.nav{
+            display: flex;
+            align-items: end;
+            
+        }
+
+        ol :hover{
+            color: blueviolet;
+            
+        }
+
+        ol{
+            font-family: "Sevillana", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            list-style: none;
+            display: flex;
+        }
+
+        li{
+            outline-style: double;
+            
+        }
+  
+    }
+
+    @media screen and (max-width: 1200px){
+        
+    }

@@ -1,24 +1,4 @@
-*{
-  background: #f87aaf;
+body{
+  background-color: #d6aabc;
 }
 
-h1 {
-    font-family: "Sevillana", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @media screen and (max-width: 1900px) {
-
-    header{
-      display: flex;
-      justify-content: space-between;
-      align-content: center;
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-
-    .div-header{
-      background-image: url(/PracticaDev/images/arreglo-f.jp);
-    }
- }
