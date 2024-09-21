@@ -11,47 +11,288 @@ header{
             background-size: 100%;
             display: flex;
             flex-direction: column; 
-            align-content: space-between;
-            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
             width: 100%;
             
         
+        }
+
+        div.div-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
         }
         
         h1 {
             font-family: "Sevillana", cursive;
             font-weight: 500;
             font-style: normal;
-            font-size: 44px;
+            font-size: 65px;
         }
 
         div.nav{
             display: flex;
-            align-items: end;
-            
+            justify-content: center;
+            align-items: center;
+            width: 80%;
         }
 
         ol :hover{
             color: blueviolet;
-            
         }
 
         ol{
             font-family: "Sevillana", cursive;
             font-weight: 400;
             font-style: normal;
-            font-size: 20px;
-            list-style: none;
+            font-size: 45px;
             display: flex;
+            list-style: none;
         }
 
         li{
-            outline-style: double;
+            padding-right: 37px;
             
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(112, 74, 16);
         }
   
     }
 
     @media screen and (max-width: 1200px){
+        header {
+            background-image: linear-gradient(rgba(75, 87, 95, 0.849), transparent, #f0cdf0e1), url(/FloreriaJazmin/images/background-floral.webp);
+            background-size: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
         
+        }
+
+        div.div-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+        
+        h1 {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 55px;
+        }
+
+        div.nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+
+        ol :hover{
+            color: blueviolet;
+        }
+
+        ol{
+            font-family: "Sevillana", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 40px;
+            display: flex;
+            list-style: none;
+        }
+
+        li{
+            padding-right: 32px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(112, 74, 16);
+        }
+    }
+
+    @media  screen and (max-width: 920px) {
+        header {
+            background-image: linear-gradient(rgba(75, 87, 95, 0.849), transparent, #f0cdf0e1), url(/FloreriaJazmin/images/background-floral.webp);
+            background-size: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
+        
+        }
+
+        div.div-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+        
+        h1 {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 55px;
+        }
+
+        div.nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+
+        ol :hover{
+            color: blueviolet;
+        }
+
+        ol{
+            font-family: "Sevillana", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            display: flex;
+            list-style: none;
+        }
+
+        li{
+            padding-right: 20px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(112, 74, 16);
+        }
+    }
+
+    @media screen and (max-width: 680px) {
+        header {
+            background-image: linear-gradient(rgba(75, 87, 95, 0.849), transparent, #f0cdf0e1), url(/FloreriaJazmin/images/background-floral.webp);
+            background-size: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
+        
+        }
+
+        div.div-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+        
+        h1 {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 32px;
+        }
+
+        div.nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+        }
+
+        ol :hover{
+            color: blueviolet;
+        }
+
+        ol{
+            font-family: "Sevillana", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 22px;
+            display: flex;
+            list-style: none;
+            padding-inline-start: 0;
+        }
+
+        li{
+            padding-right: 13px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(112, 74, 16);
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        header {
+            background-image: linear-gradient(rgba(75, 87, 95, 0.849), transparent, #f0cdf0e1), url(/FloreriaJazmin/images/background-floral.webp);
+            background-size: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            
+        
+        }
+
+        div.div-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        
+        h1 {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 25px;
+        }
+
+        div.nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        ol :hover{
+            color: blueviolet;
+        }
+
+        ol{
+            font-family: "Sevillana", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            display: flex;
+            list-style: none;
+            padding-inline-start: 0;
+        }
+
+        li{
+            padding-right: 11px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(112, 74, 16);
+        }
     }
