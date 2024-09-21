@@ -1,0 +1,48 @@
+main {
+    background-color: #f8f8f8;
+    margin: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15%;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+@media screen and (max-width: 1900px) {
+    section.info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-color: #cf9801;
+        width: 91%;
+        border-style: dashed;
+
+    }
+
+    div.containerWelcome{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    h2.welcome {
+        font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-size: 80px;
+
+    }
+
+    h4.textWelcome{
+        font-family: "Sevillana", cursive;
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    img.img-1{
+        border-radius: 5%;
+        margin-top: 4%;
+    }
+}
